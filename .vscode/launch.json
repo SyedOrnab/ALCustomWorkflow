@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Workflow server",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://dynamicsdv.bergerbd.com:8080/BC220/",
+            "serverInstance": "BC220",
+            "authentication": "Windows",
+            "startupObjectId": 50110,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true,
+            "schemaUpdateMode": "ForceSync",
+            "dependencyPublishingOption": "Default"
+        }
+    ]
+}
