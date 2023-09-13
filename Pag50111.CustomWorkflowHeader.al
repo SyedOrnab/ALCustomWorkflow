@@ -55,6 +55,7 @@ page 50111 "Custom Workflow Header"
                         RecRef.GetTable(Rec);
                         if CustomWorkflowMgmt.CheckApprovalsWorkflowEnabled(RecRef) then
                             CustomWorkflowMgmt.OnSendWorkflowForApproval(RecRef);
+                        Message('Approval Request Sent');	
                     end;
                 }
                 action(CancelApprovalRequest)
